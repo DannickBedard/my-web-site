@@ -1,0 +1,209 @@
+.mini-desc,
+.title {
+	text-align: center
+}
+
+.mini-desc {
+	width: 60%
+}
+
+@media only screen and (max-width:768px) {
+	.mini-desc {
+		width: 100%
+	}
+}
+
+.box-project {
+	position: relative;
+	background-image: url(../img/backgroudlogo.ecc15469.jpg);
+	max-width: 100%;
+	background-position: 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 12rem;
+	border-radius: .5rem;
+	display: flex;
+	justify-content: center;
+	transition: .5s;
+	box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)
+}
+
+.horspistrougematawin {
+	background-image: url(../img/capSki.2524df2e.jpeg)
+}
+
+.excavationJpBoivin {
+	background-image: url(../img/imageGoogle.f640dc46.jpg)
+}
+
+.more {
+	background-image: none;
+	background-color: #343a40
+}
+
+.desc-project {
+	display: none
+}
+
+.layer {
+	display: flex;
+	max-height: 100%;
+	justify-content: center;
+	border-radius: .5rem
+}
+
+.box-project:hover .layer {
+	background-color: rgba(52, 58, 64, .8)
+}
+
+.box-project:hover .desc-project,
+.desc-project-more {
+	display: flex;
+	max-height: 100%;
+	display: inline-block;
+	text-align: center;
+	margin-top: auto;
+	width: 100%;
+	justify-content: center
+}
+
+.desc-project-more h4 {
+	font-weight: 700
+}
+
+.desc-project {
+	color: #f7f5f6;
+	padding-left: 2rem;
+	padding-right: 2rem
+}
+
+.title {
+	text-align: center;
+	font-weight: 700
+}
+
+.btn {
+	background-color: #f7f5f6;
+	border-radius: 1.5rem;
+	padding-left: 1rem;
+	padding-right: 1rem
+}
+
+.row {
+	margin: 0
+}
+
+.startProject {
+	position: relative;
+	margin-bottom: -4rem;
+	z-index: 10
+}
+
+.bg-dark-second {
+	background-color: #534a4e;
+	color: #f7f5f6;
+	text-align: center;
+	border-radius: 1rem
+}
+
+.center {
+	display: flex;
+	justify-content: center;
+	max-height: 100%;
+	text-align: center;
+	margin-top: auto;
+	margin-bottom: auto
+}
+
+.buttonContact {
+	border: 2px solid #343a40;
+	border-radius: 1.5rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	padding-top: .5rem;
+	padding-bottom: .5rem;
+	font-weight: 700;
+	transition: .5s;
+	cursor: pointer;
+	text-decoration: none;
+	color: #f7f5f6
+}
+
+.buttonContact:hover {
+	background-color: #343a40
+}
+
+.list p,
+h4 {
+	font-weight: 700
+}
+
+.box-tools {
+	margin-top: -10rem;
+	border-radius: 1rem;
+	text-align: center;
+	box-shadow: 0 5px 5px 0 rgba(233, 240, 243, .5), 0 0 0 1px #e6ecf8
+}
+
+.box-tools .column {
+	border-right: 1px solid #e6ecf8;
+	height: 100%
+}
+
+.box-tools .column-last {
+	border-right: none
+}
+
+.tools-descr {
+	margin-left: .5rem;
+	margin-right: .5rem
+}
+
+@media only screen and (max-width:576px) {
+	.box-tools .column {
+		border-right: none
+	}
+}
+
+.goto-section {
+	display: flex;
+	justify-content: center;
+	height: 100%;
+	width: 100%
+}
+
+.goto-section a {
+	color: #b4a497;
+	font-weight: 700;
+	background-color: rgba(83, 74, 78, .8);
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+	padding-left: 2.5rem;
+	padding-right: 2.5rem;
+	border-radius: .5rem;
+	transition: .5s;
+	cursor: pointer;
+	text-decoration: none
+}
+
+.goto-section a:hover {
+	background-color: rgba(83, 74, 78, .9);
+	color: #f7f5f6
+}
+
+.goto-section a h5 {
+	font-weight: 700
+}
+
+.home {
+	color: #f7f5f6
+}
+
+.contente-intro {
+	padding-top: 9rem;
+	padding-bottom: 18rem
+}
+
+.heading-image {
+	background-image: url(../img/skiflat-jon-flobrant-unsplash.jpg)
+}
