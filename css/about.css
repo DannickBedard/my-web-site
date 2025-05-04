@@ -36,6 +36,14 @@
 	background-image: url(../img/invernois.png)
 }
 
+.olivierdion {
+	background-image: url(../img/olivierdion.png)
+}
+
+.loom {
+	background-image: url(../img/loom.png)
+}
+
 .more {
 	background-image: none;
 	background-color: #343a40
@@ -201,8 +209,8 @@ h4 {
 }
 
 .contente-intro {
-	padding-top: 9rem;
-	padding-bottom: 18rem
+	padding-top: 3rem;
+	padding-bottom: 9rem
 }
 
 .heading-image {
